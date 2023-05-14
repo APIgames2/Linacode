@@ -1,0 +1,59 @@
+$fill:#fff;
+$my-theme:rgb(15, 0, 27);
+$h-full-without-navbar:calc(100vh);
+$color-transparent:rgba(159, 159, 159, 0.233);
+$color-transparent-dark:rgba(117, 117, 117, 0.346);
+$border-transparent:2px solid $color-transparent;
+$sidebar-color:rgba(65, 65, 65, 0.272);
+$h-content:calc(100vh - 3.30rem - 1.5rem);
+
+.theme-app {
+    background-color: $my-theme;
+}
+
+.content {
+    height: $h-full-without-navbar;
+}
+
+.icon-btn {
+    width: 17px;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.icons-bar {
+    padding: 4px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-top: $border-transparent;
+    border-bottom: $border-transparent;
+}
+
+.icon-btn:hover {
+    opacity: 50%;
+}
+
+.sidebar-color {
+    background-color: $sidebar-color;
+}
+
+.box {
+    background-color: rgb(255 255 255 / 0);
+    backdrop-filter: blur(20px);
+  }
+  
+  body {
+    background-image: url("./ventura.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+.h-content {
+    height: $h-content;
+}
